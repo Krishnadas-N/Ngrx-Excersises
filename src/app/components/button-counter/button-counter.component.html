@@ -1,0 +1,8 @@
+<div>
+    <h1>{{channelName}}</h1>
+    <h1>{{counterNum}}</h1>
+</div>
+<div>
+    {{(couter$ | async )?.channel}}
+    <h1>{{(couter$ | async )?.counter}}</h1>
+</div>

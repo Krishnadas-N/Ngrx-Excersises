@@ -1,0 +1,26 @@
+.blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .blog-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .blog-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .blog-description {
+    color: #495057;
+  }
+  

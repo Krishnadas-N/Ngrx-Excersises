@@ -1,0 +1,16 @@
+<!-- post-list.component.html -->
+
+<div class="post-list" *ngIf="postInfo.posts">
+    <div *ngFor="let post of postInfo.posts" class="post-item">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.body }}</p>
+      <div class="action-buttons">
+        <button class="edit-button" (click)="editPost(post.id)">Edit</button>
+        <button class="delete-button" (click)="deletePost(post.id)">Delete</button>
+      </div>
+    </div>
+  </div>
+  <div class="error-container" *ngIf="postInfo.errorMessage">
+    <p class="error-message">{{ postInfo.errorMessage }}</p>
+  </div>
+  

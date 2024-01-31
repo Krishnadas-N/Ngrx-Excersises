@@ -1,0 +1,19 @@
+import { post } from "./posts.model";
+
+
+
+export  const posts:post={
+    posts:[
+        { userId:2,
+            id:1,
+            title:"ea molestias quasi exercitationem repellat qui ipsa sit aut",
+            body: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        },
+        { userId:1,
+            id:2,
+            title:"ea molestias quasi exercitationem repellat qui ipsa sit aut",
+            body: "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        }
+    ],
+    errorMessage:''
+} 

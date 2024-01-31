@@ -1,0 +1,14 @@
+<div>
+    <app-add-blog></app-add-blog>
+</div>
+
+<div class="blogs-container">
+  <div *ngFor="let item of blogs" class="blog-item">
+    <h1>{{ item.id }}</h1>
+    <p class="blog-title">{{ item.title | uppercase }}</p>
+    <p class="blog-description">{{ item.description }}</p>
+    <button (click)="Edit(item.id)" >Edit</button>
+    <button (click)="remove(item.id)">Delete</button>
+  </div>
+</div>
+
